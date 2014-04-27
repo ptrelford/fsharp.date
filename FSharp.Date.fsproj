@@ -55,6 +55,7 @@
     <Compile Include="ProvidedTypes.fs" />
     <Compile Include="DateParts.fs" />
     <Compile Include="DateTypeProvider.fs" />
+    <Compile Include="TimeTypeProvider.fs" />
     <None Include="Sample.fsx" />
   </ItemGroup>
   <ItemGroup>

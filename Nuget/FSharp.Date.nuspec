@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>FSharp.Date</id>
-    <version>0.1</version>
+    <version>0.2</version>
     <title>FSharp.Date</title>
     <authors>Phillip Trelford</authors>
     <owners>Phillip Treford</owners>
@@ -11,7 +11,7 @@
     <iconUrl>http://trelford.com/Medjool.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>FSharp.Date provides type safe date literals at design time.</description>
-    <releaseNotes>FSharp.Date 0.1 is an early version.</releaseNotes>
+    <releaseNotes>FSharp.Date 0.2 includes a TimeProvider.</releaseNotes>
     <copyright>Copyright 2012-2014</copyright>
     <tags>F# Date</tags>
     <dependencies/>

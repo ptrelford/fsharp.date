@@ -3,6 +3,7 @@
 open System.Reflection
 open System.Runtime.CompilerServices
 open System.Runtime.InteropServices
+open Microsoft.FSharp.Core.CompilerServices
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -37,4 +38,6 @@ open System.Runtime.InteropServices
 [<assembly: AssemblyVersion("0.1.0.0")>]
 [<assembly: AssemblyFileVersion("0.1.0.0")>]
 
+[<assembly:TypeProviderAssembly>]   
 ()
+

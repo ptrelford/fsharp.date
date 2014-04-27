@@ -1,4 +1,4 @@
-﻿module FSharp.Date.TypeProvider
+﻿module FSharp.Date.DateTypeProvider
 
 open System.Reflection
 open ProviderImplementation.ProvidedTypes
@@ -27,6 +27,3 @@ type DateProvider (config:TypeProviderConfig) as this =
             |> createDateProvider typeName))
  
    do  this.AddNamespace(ns, [dateType])
-
-[<assembly:TypeProviderAssembly>]   
-do ()
